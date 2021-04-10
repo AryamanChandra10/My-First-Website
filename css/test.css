@@ -31,3 +31,7 @@ h1 span{
 	color: violet;
 
 }
+
+h2.underline{
+	text-decoration: underline;
+}

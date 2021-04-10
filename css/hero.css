@@ -5,16 +5,18 @@ body{
 }
 
 header{
-	background-color: #10596F;
+	background-color: #CE2E18;
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	border: 10px solid #B4AAA9;
 }
 
 h1, h2{
 	font-family: 'New Tegomin', serif;
 }
 
+/*header styles */ 
 
 header h1{
 	color: white;
@@ -22,19 +24,22 @@ header h1{
 }
 
 header img{
-	border-radius: 130px;
+	border-radius: 300px;
 	width: 300px;
-	border: 15px solid #6F2010;
+	border: 15px solid white;
 }
 
 main{
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 20px;
+	padding: 30px;
+	background-color: #167FCA; 
+	border: 10px solid #B4AAA9;
 }
 
 main img{
+	margin: 0;
 	max-width: 100%;
+	border-radius: 100px;
+	border: 15px solid white;
 }
 
 h2{
@@ -56,15 +61,21 @@ footer{
 	text-align: center;
 	color: white;
 	padding: 50px;
+	border: 10px solid #B4AAA9;
 }
 
 footer p{
 	margin:0;
 }
 
-
 p.caption{
 	color:#999999;
 	font-style: italic;
 	margin-top: 0;
+	margin-left: 0;
 }
+
+h2.underline{
+	text-decoration: underline;
+}
+
